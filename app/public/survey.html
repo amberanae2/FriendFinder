@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+<body>
+    <div class ="container">
+        <h2>Questions</h2>
+        <br>
+        <br>
+        <h3>General Info About You</h3>
+        <h4>Name(Required)</h4>
+        <input type="text" id="name" class="form-control" required="">
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required="">
+        <br>
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4>You would consider yourself a competive person?</h4>
+        <select class="chosen-select" id="q1" style="display: none;">
+                <option value=""></option>
+                <option value="">1 (Strongly Disagree)</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+    </div>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title="" id="q2_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+    <a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a>
+  
+</a>
+<div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div>
+<ul class="chosen-results"></ul>
+</div>
+</div>
+
+</body>
+</html>
