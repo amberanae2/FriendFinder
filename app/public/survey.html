@@ -1,204 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Friend Finder</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Friend Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
 </head>
+
 <body>
-    <div class ="container">
-        <h2>Questions</h2>
-        <br>
-        <br>
-        <h3>General Info About You</h3>
-        <h4>Name(Required)</h4>
-        <input type="text" id="name" class="form-control" required="">
-        <h4>Link to Photo Image (Required)</h4>
-        <input type="text" id="photo" class="form-control" required="">
-        <br>
-            <h2 class="text-left">Question 1</h2>
-            <h3 class="text-left">You would consider yourself to be spontaneous.</h3>
-            <div class="dropdown">
-            <select name="name">
-                <option disabled="disabled" selected="selected">Select an option.</option>
-                <option>1(Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5(Strongly Agree)</option>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html">Home</a>
+    </div>
+  </nav>
+  </div>
+  <div class="container">
+    <h2>Questions</h2>
+    <br>
+    <br>
+    <h3>General Info About You</h3>
+    <h4>Name(Required)</h4>
+    <input type="text" id="name" class="form-control" required="">
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required="">
+    <br>
+    <h2 class="text-left">Question 1</h2>
+    <h3 class="text-left">You would consider yourself to be spontaneous.</h3>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
 
-              </select>
-            <h2 class="text-left">Question 2</h2>
-            <h3 class="text-left">People say you are the life of the party.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 3</h2>
-            <h3 class="text-left">Most of the time you would consider yourself to be an extrovert/introvert.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 4</h2>
-            <h3 class="text-left">You would consider yourself a world traveler.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 5</h2>
-            <h3 class="text-left">People would describe you as a peacemaker</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 6</h2>
-            <h3 class="text-left">You are a person who likes to get things done fast and right.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 7</h2>
-            <h3 class="text-left">Procrastinator would describe how you accomplish task.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 8</h2>
-            <h3 class="text-left">Focusing on one thing is easy for you to do.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 9</h2>
-            <h3 class="text-left">You are very open when it comes to sharing how you feel.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            <h2 class="text-left">Question 10</h2>
-            <h3 class="text-left">Being vulnerable in conversations does not bother you.</h3>
-            <div class="dropdown">
-                <select name="name">
-                    <option disabled="disabled" selected="selected">Select an option.</option>
-                    <option>1(Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5(Strongly Agree)</option>
-    
-                  </select>
-            </div>
-            
-            </div>
-            <br>
-            <br>
-            <br>
-            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-                Submit</button>
+    <h2 class="text-left">Question 2</h2>
+    <h3 class="text-left">People say you are the life of the party.</h3>
+    <select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
 
 
-            <hr>
-            <hr>
-            <footer class="footer">
-                <div class="container">
-                    <p>
-                        <a href="/api/friends">API Friends List</a>
-        
-                    </p>
-                </div>
-            </footer>
+    <h2 class="text-left">Question 3</h2>
+    <h3 class="text-left">Most of the time you would consider yourself to be an extrovert/introvert.</h3>
+    <select class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
 
-            <div id="results-modal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-            
-                  <!-- Modal content-->
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">×</button>
-                      <h2 class="modal-title"><strong>Best Match</strong></h2>
-                    </div>
-                    <div class="modal-body">
-                      <h2 id="match-name"></h2>
-                      <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-            
-                </div>
-              </div>
+    <h2 class="text-left">Question 4</h2>
+    <h3 class="text-left">You would consider yourself a world traveler.</h3>
+    <select class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
 
-              <script type= "text/javascript"> 
-        var config = {
-         ".chosen-select": {},
-         ".chosen-select-deselect": {
-           allow_single_deselect: true
+
+    <h2 class="text-left">Question 5</h2>
+    <h3 class="text-left">People would describe you as a peacemaker</h3>
+    <select class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h2 class="text-left">Question 6</h2>
+    <h3 class="text-left">You are a person who likes to get things done fast and right.</h3>
+    <select class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h2 class="text-left">Question 7</h2>
+    <h3 class="text-left">Procrastinator would describe how you accomplish task.</h3>
+    <select class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h2 class="text-left">Question 8</h2>
+    <h3 class="text-left">Focusing on one thing is easy for you to do.</h3>
+    <select class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h2 class="text-left">Question 9</h2>
+    <h3 class="text-left">You are very open when it comes to sharing how you feel.</h3>
+    <select class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h2 class="text-left">Question 10</h2>
+    <h3 class="text-left">Being vulnerable in conversations does not bother you.</h3>
+    <select class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+      aria-hidden="true"></i>
+    Submit</button>
+
+
+  <hr>
+  <hr>
+  <footer class="footer">
+    <div class="container">
+      <p>
+        <a href="/api/friends">API Friends List</a>
+
+      </p>
+    </div>
+  </footer>
+
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="match-name"></h2>
+          <img id="match-img"
+            src="https://i.etsystatic.com/17857814/r/il/24aec7/1531067118/il_fullxfull.1531067118_mqui.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <!-- <a href="/"> -->
+          <button href="/" type="button" class="btn btn-default" id="close" data-dismiss="modal">Start Over</button>
+          <!-- </a> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var config = {
+      ".chosen-select": {},
+      ".chosen-select-deselect": {
+        allow_single_deselect: true
       },
       ".chosen-select-no-single": {
         disable_search_threshold: 10
@@ -215,20 +215,20 @@
       $(selector).chosen(config[selector]);
     }
 
-    
-    $("#submit").on("click", function(event) {
+
+    $("#submit").on("click", function (event) {
       event.preventDefault();
 
-      
+
       function validateForm() {
         var isValid = true;
-        $(".form-control").each(function() {
+        $(".form-control").each(function () {
           if ($(this).val() === "") {
             isValid = false;
           }
         });
 
-        $(".chosen-select").each(function() {
+        $(".chosen-select").each(function () {
 
           if ($(this).val() === "") {
             isValid = false;
@@ -237,7 +237,7 @@
         return isValid;
       }
 
-      
+
       if (validateForm()) {
         var userData = {
           name: $("#name").val(),
@@ -256,26 +256,31 @@
           ]
         };
 
-        
-        $.post("/api/friends", userData, function(data) {
+
+        $.post("/api/friends", userData, function (data) {
 
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
 
-          
+
           $("#results-modal").modal("toggle");
 
         });
       } else {
         alert("Please fill out all fields before submitting!");
       }
+
     });
-  
-    </script>
-   
+    var btn = document.getElementById('close');
+    btn.onclick = function () {
+      location.assign('/');
+    }
+  </script>
+
 
 
 
 
 </body>
+
 </html>
