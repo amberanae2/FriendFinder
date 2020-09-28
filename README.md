@@ -8,5 +8,5 @@ The User then is prompted to answer some random questions.
 
 Based on what the User chooses a photo will populate with their bestfriend!
 
-Built with Express,HTML,CSS
+Built with Express,HTML,CSS,Jquery,JavaScript
 
